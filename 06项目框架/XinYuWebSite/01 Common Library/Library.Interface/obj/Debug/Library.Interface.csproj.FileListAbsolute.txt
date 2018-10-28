@@ -1,0 +1,13 @@
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Interface\bin\Debug\Spotmau.Framework.Library.Interface.dll
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Interface\bin\Debug\Spotmau.Framework.Library.Interface.pdb
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Interface\obj\Debug\ResolveAssemblyReference.cache
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Interface\obj\Debug\Spotmau.Framework.Library.Interface.dll
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Interface\obj\Debug\Spotmau.Framework.Library.Interface.pdb
+D:\MySite\01 Common Library\Library.Interface\bin\Debug\XinYu.Framework.Library.Interface.dll
+D:\MySite\01 Common Library\Library.Interface\bin\Debug\XinYu.Framework.Library.Interface.pdb
+D:\MySite\01 Common Library\Library.Interface\obj\Debug\XinYu.Framework.Library.Interface.dll
+D:\MySite\01 Common Library\Library.Interface\obj\Debug\XinYu.Framework.Library.Interface.pdb
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Interface\bin\Debug\XinYu.Framework.Library.Interface.dll
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Interface\bin\Debug\XinYu.Framework.Library.Interface.pdb
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Interface\obj\Debug\XinYu.Framework.Library.Interface.dll
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Interface\obj\Debug\XinYu.Framework.Library.Interface.pdb

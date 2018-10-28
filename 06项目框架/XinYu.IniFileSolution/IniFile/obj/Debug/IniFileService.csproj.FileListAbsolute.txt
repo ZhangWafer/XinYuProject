@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\IniFileSolution\IniFile\bin\Debug\IniFileService.dll
+C:\Users\Administrator\Desktop\IniFileSolution\IniFile\bin\Debug\IniFileService.pdb
+C:\Users\Administrator\Desktop\IniFileSolution\IniFile\obj\Debug\IniFileService.dll
+C:\Users\Administrator\Desktop\IniFileSolution\IniFile\obj\Debug\IniFileService.pdb

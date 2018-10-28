@@ -1,0 +1,5 @@
+F:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.DepositAndConsumption.dll
+F:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.DepositAndConsumption.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\DepositAndConsumption\obj\Debug\DepositAndConsumption.csprojResolveAssemblyReference.cache
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\DepositAndConsumption\obj\Debug\XinYu.Framework.DepositAndConsumption.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\DepositAndConsumption\obj\Debug\XinYu.Framework.DepositAndConsumption.pdb

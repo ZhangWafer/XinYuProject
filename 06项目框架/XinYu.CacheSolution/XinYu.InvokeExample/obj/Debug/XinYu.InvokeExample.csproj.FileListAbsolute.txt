@@ -1,0 +1,8 @@
+F:\06项目框架\XinYu.CacheSolution\XinYu.InvokeExample\bin\Debug\XinYu.InvokeExample.exe.config
+F:\06项目框架\XinYu.CacheSolution\XinYu.InvokeExample\bin\Debug\XinYu.InvokeExample.exe
+F:\06项目框架\XinYu.CacheSolution\XinYu.InvokeExample\bin\Debug\XinYu.InvokeExample.pdb
+F:\06项目框架\XinYu.CacheSolution\XinYu.InvokeExample\bin\Debug\XinYu.Cache.dll
+F:\06项目框架\XinYu.CacheSolution\XinYu.InvokeExample\bin\Debug\XinYu.Cache.pdb
+F:\06项目框架\XinYu.CacheSolution\XinYu.InvokeExample\obj\Debug\XinYu.InvokeExample.csprojResolveAssemblyReference.cache
+F:\06项目框架\XinYu.CacheSolution\XinYu.InvokeExample\obj\Debug\XinYu.InvokeExample.exe
+F:\06项目框架\XinYu.CacheSolution\XinYu.InvokeExample\obj\Debug\XinYu.InvokeExample.pdb

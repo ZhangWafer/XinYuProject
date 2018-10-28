@@ -1,0 +1,49 @@
+using System;
+
+namespace XinYu.Framework.Staff.Model
+{
+
+    /// <summary>
+    /// 警务人员信息类
+    /// </summary>
+    public class PCStaffInfo
+    {
+        public PCStaffInfo() { }
+
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string PcRank { get; set; }
+
+        public int PcRankId { get; set; }
+
+        public string PCNum { get; set; }
+
+        public string Icon { get; set; }
+
+        public string IconThum { get; set; }
+
+        public string Tel { get; set; }
+
+        public string Wechat { get; set; }
+
+        public int OrganizationId { get; set; }
+
+        public string OrganizationName { get; set; }
+
+        public int DisplayOrder { get; set; }
+
+        public int CreatedByID { get; set; }
+
+        public string CreatedByName { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+
+        public int LastUpdByID { get; set; }
+
+        public string LastUpdByName { get; set; }
+
+        public DateTime LastUpdDate { get; set; }
+    }
+}

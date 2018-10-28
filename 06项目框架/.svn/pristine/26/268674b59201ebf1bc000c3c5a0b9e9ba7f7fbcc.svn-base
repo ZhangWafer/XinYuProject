@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Default.Master.cs" Inherits="Background_Common_Default" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>电子围栏管理信息系统 V1.1</title>
+    <link type="text/css" href="../css/default.css" rel="stylesheet" charset="utf-8" />
+    <script type="text/javascript" language="javascript">
+        function resize() {
+
+            var bodyWidth = document.body.clientWidth;  // 网页可见区域宽
+            var bodyHeight = document.body.clientHeight; // 网页可见区域高
+
+            //document.getElementById("tableMainTitle").style.width = (bodyWidth - 40) + "px";    
+            //document.getElementById("divBody").style.width  = (bodyWidth - 40) + "px";
+            document.getElementById("divBody").style.height = (bodyHeight - 27) + "px";
+        }
+
+        function onload() {
+            resize();
+            window.onresize = resize;
+        }
+    </script>
+</head>
+<body style="overflow: hidden; position: absolute; width: 100%; height: 100%;" onload="onload();">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <table id="tableMainTitle" border="0" cellspacing="0" cellpadding="0" style="height: 22px;
+        width: 100%;">
+        <tr>
+            <td style="width: 10px;">
+                <img alt="" src="../img/framework/title_bg_left.gif" width="10" height="22" />
+            </td>
+            <td style="background-image: url(../img/framework/title_bg.gif);" class="fontblack">
+                当前位置 |
+                <asp:Label ID="lblLocation" runat="server" Text=""></asp:Label>
+            </td>
+            <td style="width: 10px;">
+                <div align="right">
+                    <img alt="" src="../img/framework/title_bg_right.gif" width="10" height="22" /></div>
+            </td>
+        </tr>
+    </table>
+    <div id="divBody">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="divSpace">
+        </div>
+    </div>
+    </form>
+</body>
+</html>

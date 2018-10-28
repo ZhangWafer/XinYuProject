@@ -1,0 +1,48 @@
+﻿using System.Collections.Generic;
+using XinYu.Framework.Library.Factory;
+using XinYu.Framework.Library.Interface;
+using XinYu.Framework.Organization.DAL.SQLServer;
+using XinYu.Framework.Organization.Model;
+
+namespace XinYu.Framework.Organization.BLL
+{
+    public class OrganizationBLL
+    {
+        protected const string ConstCacheKeyOrganization = "__organization";
+
+        protected static ICacheManager StaticCacheManager = CommonLibraryFactory.CreateInstance<ICacheManager>();
+
+        protected static OrganizationDAL StaticOrganizationDAL = new OrganizationDAL();
+
+        public void AddOrganization(OrganizationInfo orgInfo)
+        {
+            StaticOrganizationDAL.Insert(orgInfo);
+            StaticCacheManager.Remove(ConstCacheKeyOrganization);
+        }
+
+        public void RemoveOrganization(int orgId)
+        {
+            StaticOrganizationDAL.Delete(orgId);
+            StaticCacheManager.Remove(ConstCacheKeyOrganization);
+        }
+
+        public void ModifyOrganization(OrganizationInfo orgInfo)
+        {
+            StaticOrganizationDAL.Update(orgInfo);
+            StaticCacheManager.Remove(ConstCacheKeyOrganization);
+        }
+
+        public IList<OrganizationInfo> GetOrganizationList(string name, string orderString)
+        {
+            var orgList = StaticCacheManager.GetData<IList<OrganizationInfo>>(ConstCacheKeyOrganization);
+            if (orgList == null || orgList.Count == 0)
+            {
+                orgList = StaticOrganizationDAL.SelectList(name, orderString);
+
+                StaticCacheManager.Add(ConstCacheKeyOrganization, orgList);  //添加缓存
+            }
+
+            return StaticOrganizationDAL.SelectList(name, orderString);
+        }
+    }
+}

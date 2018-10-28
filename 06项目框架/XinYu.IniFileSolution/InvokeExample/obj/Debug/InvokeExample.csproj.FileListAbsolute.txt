@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\IniFileSolution\InvokeExample\bin\Debug\InvokeExample.exe.config
+C:\Users\Administrator\Desktop\IniFileSolution\InvokeExample\bin\Debug\InvokeExample.exe
+C:\Users\Administrator\Desktop\IniFileSolution\InvokeExample\bin\Debug\InvokeExample.pdb
+C:\Users\Administrator\Desktop\IniFileSolution\InvokeExample\obj\Debug\InvokeExample.exe
+C:\Users\Administrator\Desktop\IniFileSolution\InvokeExample\obj\Debug\InvokeExample.pdb
+C:\Users\Administrator\Desktop\IniFileSolution\InvokeExample\bin\Debug\IniFileService.dll
+C:\Users\Administrator\Desktop\IniFileSolution\InvokeExample\bin\Debug\IniFileService.pdb
+C:\Users\Administrator\Desktop\IniFileSolution\InvokeExample\obj\Debug\InvokeExample.csprojResolveAssemblyReference.cache

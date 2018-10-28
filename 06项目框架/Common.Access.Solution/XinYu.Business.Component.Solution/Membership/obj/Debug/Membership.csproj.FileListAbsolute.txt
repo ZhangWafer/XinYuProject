@@ -1,0 +1,38 @@
+D:\MySite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Membership.dll
+D:\MySite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Membership.pdb
+D:\MySite\02 Business Component\Membership\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MySite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Factory.dll
+D:\MySite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Implement.dll
+D:\MySite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Interface.dll
+D:\MySite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Utility.dll
+D:\MySite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Factory.pdb
+D:\MySite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Implement.pdb
+D:\MySite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Interface.pdb
+D:\MySite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Utility.pdb
+D:\MySite\02 Business Component\Membership\bin\Debug\Microsoft.Practices.ObjectBuilder.pdb
+D:\MySite\02 Business Component\Membership\obj\Debug\Membership.csprojResolveAssemblyReference.cache
+D:\MySite\02 Business Component\Membership\obj\Debug\XinYu.Framework.Membership.dll
+D:\MySite\02 Business Component\Membership\obj\Debug\XinYu.Framework.Membership.pdb
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Membership.dll
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Membership.pdb
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Factory.dll
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Implement.dll
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Interface.dll
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Utility.dll
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Factory.pdb
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Implement.pdb
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Interface.pdb
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\XinYu.Framework.Library.Utility.pdb
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\bin\Debug\Microsoft.Practices.ObjectBuilder.pdb
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\obj\Debug\Membership.csprojResolveAssemblyReference.cache
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\obj\Debug\XinYu.Framework.Membership.dll
+F:\06项目框架\XinYuWebSite\02 Business Component\Membership\obj\Debug\XinYu.Framework.Membership.pdb
+C:\Users\Administrator\Desktop\XinYu.Business.Component.Solution\Membership\obj\Debug\Membership.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\XinYu.Business.Component.Solution\Membership\obj\Debug\XinYu.Framework.Membership.dll
+C:\Users\Administrator\Desktop\XinYu.Business.Component.Solution\Membership\obj\Debug\XinYu.Framework.Membership.pdb
+F:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.Membership.dll
+F:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.Membership.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Membership\obj\Debug\XinYu.Framework.Membership.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Membership\obj\Debug\XinYu.Framework.Membership.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Membership\obj\Debug\Membership.csprojResolveAssemblyReference.cache

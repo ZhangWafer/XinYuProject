@@ -1,0 +1,9 @@
+F:\06项目框架\XinYu.WCF.Service\XinYu.WCF.Proxy\bin\Debug\XinYu.WCF.Proxy.dll
+F:\06项目框架\XinYu.WCF.Service\XinYu.WCF.Proxy\bin\Debug\XinYu.WCF.Proxy.pdb
+F:\06项目框架\XinYu.WCF.Service\XinYu.WCF.Proxy\obj\Debug\XinYu.WCF.Proxy.dll
+F:\06项目框架\XinYu.WCF.Service\XinYu.WCF.Proxy\obj\Debug\XinYu.WCF.Proxy.pdb
+F:\06项目框架\XinYu.WCF.Service\XinYu.WCF.Proxy\obj\Debug\XinYu.WCF.Proxy.csprojResolveAssemblyReference.cache
+F:\06项目框架\XinYu.WCFSolution\XinYu.WCF.Proxy\bin\Debug\XinYu.WCF.Proxy.dll
+F:\06项目框架\XinYu.WCFSolution\XinYu.WCF.Proxy\bin\Debug\XinYu.WCF.Proxy.pdb
+F:\06项目框架\XinYu.WCFSolution\XinYu.WCF.Proxy\obj\Debug\XinYu.WCF.Proxy.dll
+F:\06项目框架\XinYu.WCFSolution\XinYu.WCF.Proxy\obj\Debug\XinYu.WCF.Proxy.pdb

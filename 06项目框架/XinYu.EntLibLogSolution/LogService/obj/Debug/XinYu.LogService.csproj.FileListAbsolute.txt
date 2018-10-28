@@ -1,0 +1,4 @@
+F:\06项目框架\EntLibLogSolution\ConsoleApplication\bin\Debug\XinYu.LogService.dll
+F:\06项目框架\EntLibLogSolution\ConsoleApplication\bin\Debug\XinYu.LogService.pdb
+F:\06项目框架\EntLibLogSolution\LogService\obj\Debug\XinYu.LogService.dll
+F:\06项目框架\EntLibLogSolution\LogService\obj\Debug\XinYu.LogService.pdb

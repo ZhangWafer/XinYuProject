@@ -1,0 +1,5 @@
+F:\06项目框架\XinYu.UtilitySolution\XinYu.Utility.FileCommon\obj\Debug\XinYu.Utility.FileCommon.csprojResolveAssemblyReference.cache
+F:\06项目框架\XinYu.UtilitySolution\XinYu.Utility.FileCommon\bin\Debug\XinYu.Utility.FileCommon.dll
+F:\06项目框架\XinYu.UtilitySolution\XinYu.Utility.FileCommon\bin\Debug\XinYu.Utility.FileCommon.pdb
+F:\06项目框架\XinYu.UtilitySolution\XinYu.Utility.FileCommon\obj\Debug\XinYu.Utility.FileCommon.dll
+F:\06项目框架\XinYu.UtilitySolution\XinYu.Utility.FileCommon\obj\Debug\XinYu.Utility.FileCommon.pdb

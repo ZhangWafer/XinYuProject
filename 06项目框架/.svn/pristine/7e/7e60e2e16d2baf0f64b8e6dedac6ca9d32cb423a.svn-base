@@ -1,0 +1,45 @@
+﻿using System;
+
+namespace XinYu.Framework.Cookbook.Model
+{
+    public class CookbookPreferentialInRankInfo
+    {
+        public CookbookPreferentialInRankInfo() { }
+
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string Description { get; set; }
+
+        public int RankId { get; set; }
+
+        public string RandName { get; set; }
+
+        public int CookbookId { get; set; }
+
+        public string CookbookName { get; set; }
+
+        public decimal SalePrice { get; set; }
+
+        public decimal RealPrice { get; set; }
+
+        public int? OrganizationId { get; set; }
+
+        public string OrganizationName { get; set; }
+
+        public int DisplayOrder { get; set; }
+
+        public int CreatedByID { get; set; }
+
+        public string CreatedByName { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+
+        public int LastUpdByID { get; set; }
+
+        public string LastUpdByName { get; set; }
+
+        public DateTime LastUpdDate { get; set; }
+    }
+}

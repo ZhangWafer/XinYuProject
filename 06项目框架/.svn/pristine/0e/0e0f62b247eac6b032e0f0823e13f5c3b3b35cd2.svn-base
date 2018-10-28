@@ -1,0 +1,48 @@
+﻿using System.Collections.Generic;
+using XinYu.Framework.Cafeteria.DAL.SQLServer;
+using XinYu.Framework.Cafeteria.Model;
+using XinYu.Framework.Library.Factory;
+using XinYu.Framework.Library.Interface;
+
+namespace XinYu.Framework.Cafeteria.BLL
+{
+    public class CafeteriBLL
+    {
+        protected const string ConstCacheKeyCafeteri = "__cafeteri";
+
+        protected static ICacheManager StaticCacheManager = CommonLibraryFactory.CreateInstance<ICacheManager>();
+
+        protected static CafeteriDAL StaticCafeteriDAL = new CafeteriDAL();
+
+        public void AddCafeteri(CafeteriInfo cafeteriInfo)
+        {
+            StaticCafeteriDAL.Insert(cafeteriInfo);
+            StaticCacheManager.Remove(ConstCacheKeyCafeteri);
+        }
+
+        public void RemoveCafeteri(int orgId)
+        {
+            StaticCafeteriDAL.Delete(orgId);
+            StaticCacheManager.Remove(ConstCacheKeyCafeteri);
+        }
+
+        public void ModifyCafeteri(CafeteriInfo cafeteriInfo)
+        {
+            StaticCafeteriDAL.Update(cafeteriInfo);
+            StaticCacheManager.Remove(ConstCacheKeyCafeteri);
+        }
+
+        public IList<CafeteriInfo> GetCafeteriList(string name, string orderString)
+        {
+            var cafList = StaticCacheManager.GetData<IList<CafeteriInfo>>(ConstCacheKeyCafeteri);
+            if (cafList == null || cafList.Count == 0)
+            {
+                cafList = StaticCafeteriDAL.SelectList(name, orderString);
+
+                StaticCacheManager.Add(ConstCacheKeyCafeteri, cafList);  //添加缓存
+            }
+
+            return StaticCafeteriDAL.SelectList(name, orderString);
+        }
+    }
+}

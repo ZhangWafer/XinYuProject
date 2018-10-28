@@ -1,0 +1,102 @@
+﻿using System.Collections.Generic;
+using XinYu.Framework.Library.Factory;
+using XinYu.Framework.Library.Interface;
+using XinYu.Framework.Staff.DAL.SQLServer;
+using XinYu.Framework.Staff.Model;
+
+namespace XinYu.Framework.Staff.BLL
+{
+    public class StaffBLL
+    {
+        #region  RankDAL
+        protected const string ConstCacheKeyRank = "__rank";
+
+        protected static ICacheManager StaticCacheManager = CommonLibraryFactory.CreateInstance<ICacheManager>();
+        protected static RankDAL StaticRankDAL = new RankDAL();
+
+        public IList<RankInfo> GetRankList(string name, string orderString)
+        {
+            var rankList = StaticCacheManager.GetData<IList<RankInfo>>(ConstCacheKeyRank);
+            if (rankList == null || rankList.Count == 0)
+            {
+                rankList = StaticRankDAL.SelectList(name, orderString);
+                StaticCacheManager.Add(ConstCacheKeyRank, rankList);  //添加缓存
+            }
+
+            return StaticRankDAL.SelectList(name, orderString);
+        }
+        #endregion
+
+        #region  PCStaffInfoDAL
+        protected static PCStaffDAL StaticPCStaffDAL = new PCStaffDAL();
+
+        public void AddPCStaff(PCStaffInfo pcInfo)
+        {
+            StaticPCStaffDAL.Insert(pcInfo);
+        }
+
+        public void RemovePCStaff(int pcId)
+        {
+            StaticPCStaffDAL.Delete(pcId);
+        }
+
+        public void ModifyPCStaff(PCStaffInfo pcInfo)
+        {
+            StaticPCStaffDAL.Update(pcInfo);
+        } 
+
+        public PCStaffInfo GetPCStaff(int pcId)
+        {
+            return StaticPCStaffDAL.Select(pcId);
+        }
+
+        public IList<PCStaffInfo> GetPCStaffList(string name, string pcNum, int? organizationId, string orderString)
+        {
+            return StaticPCStaffDAL.SelectList(name, pcNum, organizationId, orderString);
+        }
+
+        public IList<PCStaffInfo> GetPCStaffList(string name, string pcNum, int? organizationId, string orderString,
+            int pageIndex, int pageSize, out int total)
+        {
+            return StaticPCStaffDAL.SelectList(name, pcNum, organizationId, orderString, pageIndex, pageSize, out total);
+        }
+
+        #endregion
+
+        #region  StaticCafeteriaStaffDAL
+        protected static CafeteriaStaffDAL StaticCafeteriaStaffDAL = new CafeteriaStaffDAL();
+
+        public void AddCafeteriaStaff(CafeteriaStaffInfo csInfo)
+        {
+            StaticCafeteriaStaffDAL.Insert(csInfo);
+        }
+
+        public void RemoveCafeteriaStaff(int csId)
+        {
+            StaticCafeteriaStaffDAL.Delete(csId);
+        }
+
+        public void ModifyCafeteriaStaff(CafeteriaStaffInfo csInfo)
+        {
+            StaticCafeteriaStaffDAL.Update(csInfo);
+        }
+
+        public CafeteriaStaffInfo GetCafeteriaStaff(int csId)
+        {
+            return StaticCafeteriaStaffDAL.Select(csId);
+        }
+
+        public IList<CafeteriaStaffInfo> GetCafeteriaStaffList(string name, int? organizationId, int? cafeteriaId, string orderString)
+        {
+            return StaticCafeteriaStaffDAL.SelectList(name, organizationId, cafeteriaId, orderString);
+        }
+
+        public IList<CafeteriaStaffInfo> GetCafeteriaStaffList(string name, int? organizationId, int? cafeteriaId, string orderString,
+    int pageIndex, int pageSize, out int total)
+        {
+            return StaticCafeteriaStaffDAL.SelectList(name, organizationId, cafeteriaId, orderString, pageIndex, pageSize, out total);
+        }
+
+        #endregion
+    }
+}

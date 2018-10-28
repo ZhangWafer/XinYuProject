@@ -1,0 +1,166 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using XinYu.Framework.Cookbook.Model;
+using XinYu.Framework.Library.Utility.DAL;
+
+namespace XinYu.Framework.Cookbook.DAL.SQLServer
+{
+    /// <summary>
+    /// 排餐详情数据访问类
+    /// </summary>
+    public class CookbookSetInDateDetailDAL : AbstractSQLDAL<CookbookSetInDateDetailInfo>
+    {
+        #region Const SQL String.
+        const string CONST_SQL_INSERT = @"
+                    INSERT INTO [Cater].[CookbookSetInDateDetail]
+                        ([CookbookDateId], 
+                        [CookbookId], [CookbookName],
+                        [CreatedByID], [CreatedByName], [CreatedDate], [LastUpdByID], [LastUpdByName], [LastUpdDate])
+                    VALUES
+                        (@CookbookDateId,
+                        @CookbookId, @CookbookName,
+                        @CreatedByID, @CreatedByName, @CreatedDate, @LastUpdByID, @LastUpdByName, @LastUpdDate)
+                    SELECT @@IDENTITY";
+
+        const string CONST_SQL_UPDATE = @"
+                    UPDATE [Cater].[CookbookSetInDateDetail]
+                       SET [Name]                       = @Name
+                          ,[CookbookDateId]             = @CookbookDateId
+                          ,[CookbookId]                 = @CookbookId
+                          ,[CookbookName]               = @CookbookName
+                          ,[LastUpdByID]                = @LastUpdByID
+                          ,[LastUpdByName]              = @LastUpdByName
+                          ,[LastUpdDate]                = @LastUpdDate
+                     WHERE ID = @ID";
+
+        const string CONST_SQL_DELETE = "DELETE FROM [Cater].[CookbookSetInDateDetail] WHERE Id = @Id";
+
+        const string CONST_SQL_DELETE_BY_COOKBOOKDATEID = "DELETE FROM [Cater].[CookbookSetInDateDetail] WHERE CookbookDateId = @CookbookDateId";
+
+        const string CONST_SQL_SELECT = "SELECT * FROM [Cater].[CookbookSetInDateDetail] WHERE Id = @Id";
+
+        const string CONST_SQL_SELECT_BY_COOKBOOKDATEID = "SELECT * FROM [Cater].[CookbookSetInDateDetail] WHERE CookbookDateId = @CookbookDateId";
+
+        #endregion
+
+        /// <summary>
+        /// 添加排餐详情
+        /// </summary>
+        public void Insert(CookbookSetInDateDetailInfo cbInfo)
+        {
+            var parameters = GetSqlParameter(cbInfo);
+
+            using (var dr = SQLHelper.ExecuteReader(SQLHelper.ConnString, CommandType.Text, CONST_SQL_INSERT, parameters))
+            {
+                dr.Read();
+                cbInfo.Id = Convert.ToInt32(dr[0]);
+                dr.Close();
+            }
+        }
+
+        /// <summary>
+        /// 删除指定的排餐详情记录
+        /// </summary>
+        public void Delete(int cbId)
+        {
+            SQLHelper.ExecuteNonQuery(SQLHelper.ConnString, CommandType.Text, CONST_SQL_DELETE, new SqlParameter("@Id", cbId));
+        }
+
+        /// <summary>
+        /// 删除排餐的所有详情记录
+        /// </summary>
+        /// <param name="cookbookDateId">排餐ID</param>
+        public void DeleteByCookbookDateId(int cookbookDateId)
+        {
+            SQLHelper.ExecuteNonQuery(SQLHelper.ConnString, CommandType.Text, CONST_SQL_DELETE_BY_COOKBOOKDATEID, new SqlParameter("@CookbookDateId", cookbookDateId));
+        }
+
+        /// <summary>
+        /// 修改排餐详情
+        /// </summary>
+        public void Update(CookbookSetInDateDetailInfo cbInfo)
+        {
+            var parameters = this.GetSqlParameter(cbInfo);
+            SQLHelper.ExecuteNonQuery(SQLHelper.ConnString, CommandType.Text, CONST_SQL_UPDATE, parameters);
+        }
+
+        /// <summary>
+        /// 获取排餐详情
+        /// </summary>
+        public CookbookSetInDateDetailInfo Select(int cookbookDateId)
+        {
+            CookbookSetInDateDetailInfo ret = null;
+            using (var dr = SQLHelper.ExecuteReader(SQLHelper.ConnString, CommandType.Text, CONST_SQL_SELECT, new SqlParameter("@Id", cookbookDateId)))
+            {
+                if (dr.Read())
+                {
+                    ret = this.BuildModel(dr);
+                }
+                dr.Close();
+            }
+            return ret;
+        }
+
+        /// <summary>
+        /// 获取排餐的所有详情记录
+        /// </summary>
+        /// <param name="cookbookDateId">排餐ID</param>
+        public IList<CookbookSetInDateDetailInfo> SelectList(int cookbookDateId)
+        {
+            var parameters = new[] {
+                new SqlParameter("@CookbookDateId", cookbookDateId)
+            };
+
+            using (var dr = SQLHelper.ExecuteReader(SQLHelper.ConnString, CommandType.Text, CONST_SQL_SELECT_BY_COOKBOOKDATEID, parameters))
+            {
+                return GetModels(dr);
+            }
+        }
+
+
+        #region Private methods.
+
+        public override CookbookSetInDateDetailInfo BuildModel(IDataReader dr)
+        {
+            var ret = new CookbookSetInDateDetailInfo
+            {
+                Id = int.Parse(dr["Id"].ToString()),
+
+                CookbookDateId = int.Parse(dr["CookbookDateId"].ToString()),
+
+                CookbookId = int.Parse(dr["CookbookId"].ToString()),
+                CookbookName = dr["CookbookName"].ToString(),
+
+                CreatedByID = int.Parse(dr["CreatedByID"].ToString()),
+                CreatedByName = dr["CreatedByName"].ToString(),
+                CreatedDate = DateTime.Parse(dr["CreatedDate"].ToString()),
+                LastUpdByID = int.Parse(dr["LastUpdByID"].ToString()),
+                LastUpdByName = dr["LastUpdByName"].ToString(),
+                LastUpdDate = DateTime.Parse(dr["LastUpdDate"].ToString())
+            };
+            return ret;
+        }
+
+        private SqlParameter[] GetSqlParameter(CookbookSetInDateDetailInfo csddInfo)
+        {
+            return new[] {
+                new SqlParameter("@Id", csddInfo.Id),
+
+                new SqlParameter("@CookbookDateId", csddInfo.CookbookDateId),
+
+                new SqlParameter("@CookbookId", csddInfo.CookbookId),
+                new SqlParameter("@CookbookName", csddInfo.CookbookName),
+
+                new SqlParameter("@CreatedByID", csddInfo.CreatedByID),
+                new SqlParameter("@CreatedByName", csddInfo.CreatedByName),
+                new SqlParameter("@CreatedDate", csddInfo.CreatedDate),
+                new SqlParameter("@LastUpdByID", csddInfo.LastUpdByID),
+                new SqlParameter("@LastUpdByName", csddInfo.LastUpdByName),
+                new SqlParameter("@LastUpdDate", csddInfo.LastUpdDate),
+            };
+        }
+        #endregion
+    }
+}

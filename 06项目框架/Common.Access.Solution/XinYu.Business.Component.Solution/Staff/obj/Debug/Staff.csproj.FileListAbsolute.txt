@@ -1,0 +1,16 @@
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\XinYu.Framework.Staff.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\XinYu.Framework.Staff.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\XinYu.Framework.Library.Factory.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\XinYu.Framework.Library.Implement.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\XinYu.Framework.Library.Interface.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\XinYu.Framework.Library.Utility.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\Microsoft.Practices.ObjectBuilder.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\XinYu.Framework.Library.Factory.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\XinYu.Framework.Library.Implement.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\XinYu.Framework.Library.Interface.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\bin\Debug\XinYu.Framework.Library.Utility.pdb
+F:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.Staff.dll
+F:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.Staff.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\obj\Debug\XinYu.Framework.Staff.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Staff\obj\Debug\XinYu.Framework.Staff.pdb
