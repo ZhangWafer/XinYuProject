@@ -174,25 +174,25 @@ namespace XinYu.Framework.Staff.BLL
         /// <summary>
         /// 移除食管人员
         /// </summary>
-        public void RemoveCafeteriaStaff(int csId)
+        public void RemoveWorkerStaff(int csId)
         {
-            StaticCafeteriaStaffDAL.Delete(csId);
+            StaticWorkerStaffDAL.Delete(csId);
         }
 
         /// <summary>
         /// 修改食管人员
         /// </summary>
-        public void ModifyCafeteriaStaff(CafeteriaStaffInfo csInfo)
+        public void ModifyWorkerStaff(WorkersStaffInfo csInfo)
         {
-            StaticCafeteriaStaffDAL.Update(csInfo);
+            StaticWorkerStaffDAL.Update(csInfo);
         }
 
         /// <summary>
         /// 获取食管人员
         /// </summary>
-        public CafeteriaStaffInfo GetCafeteriaStaff(int csId)
+        public WorkersStaffInfo GetWorkerStaff(int csId)
         {
-            return StaticCafeteriaStaffDAL.Select(csId);
+            return StaticWorkerStaffDAL.Select(csId);
         }
 
         /// <summary>
@@ -202,9 +202,9 @@ namespace XinYu.Framework.Staff.BLL
         /// <param name="organizationId">机构ID</param>
         /// <param name="cafeteriaId">食堂id</param>
         /// <param name="orderString">sql排序</param>
-        public IList<CafeteriaStaffInfo> GetCafeteriaStaffList(string name, int? organizationId, int? cafeteriaId, string orderString)
+        public IList<WorkersStaffInfo> GetWorkerStaffList(string name, int? organizationId, int? cafeteriaId, string orderString)
         {
-            return StaticCafeteriaStaffDAL.SelectList(name, organizationId, cafeteriaId, orderString);
+            return StaticWorkerStaffDAL.SelectList(name, organizationId, cafeteriaId, orderString);
         }
 
         /// <summary>
@@ -214,10 +214,10 @@ namespace XinYu.Framework.Staff.BLL
         /// <param name="organizationId">机构ID</param>
         /// <param name="cafeteriaId">食堂id</param>
         /// <param name="orderString">sql排序</param>
-        public IList<CafeteriaStaffInfo> GetCafeteriaStaffList(string name, int? organizationId, int? cafeteriaId, string orderString,
+        public IList<WorkersStaffInfo> GetWorkerStaffList(string name, int? organizationId, int? cafeteriaId, string orderString,
     int pageIndex, int pageSize, out int total)
         {
-            return StaticCafeteriaStaffDAL.SelectList(name, organizationId, cafeteriaId, orderString, pageIndex, pageSize, out total);
+            return StaticWorkerStaffDAL.SelectList(name, organizationId, cafeteriaId, orderString, pageIndex, pageSize, out total);
         }
 
         #endregion
