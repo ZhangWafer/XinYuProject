@@ -1,0 +1,8 @@
+F:\06项目框架\XinYu.WCF.Service\XinYu.WCF.Service\bin\Debug\XinYu.WCF.Service.dll
+F:\06项目框架\XinYu.WCF.Service\XinYu.WCF.Service\bin\Debug\XinYu.WCF.Service.pdb
+F:\06项目框架\XinYu.WCF.Service\XinYu.WCF.Service\obj\Debug\XinYu.WCF.Service.dll
+F:\06项目框架\XinYu.WCF.Service\XinYu.WCF.Service\obj\Debug\XinYu.WCF.Service.pdb
+F:\06项目框架\XinYu.WCFSolution\XinYu.WCF.Service\bin\Debug\XinYu.WCF.Service.dll
+F:\06项目框架\XinYu.WCFSolution\XinYu.WCF.Service\bin\Debug\XinYu.WCF.Service.pdb
+F:\06项目框架\XinYu.WCFSolution\XinYu.WCF.Service\obj\Debug\XinYu.WCF.Service.dll
+F:\06项目框架\XinYu.WCFSolution\XinYu.WCF.Service\obj\Debug\XinYu.WCF.Service.pdb

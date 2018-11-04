@@ -1,0 +1,8 @@
+F:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.Cafeteria.dll
+F:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.Cafeteria.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Cafeteria\obj\Debug\XinYu.Framework.Cafeteria.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Cafeteria\obj\Debug\XinYu.Framework.Cafeteria.pdb
+E:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.Cafeteria.dll
+E:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.Cafeteria.pdb
+E:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Cafeteria\obj\Debug\XinYu.Framework.Cafeteria.dll
+E:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\Cafeteria\obj\Debug\XinYu.Framework.Cafeteria.pdb

@@ -1,0 +1,4 @@
+F:\06项目框架\XinYu.IniFileSolution\IniFile\bin\Debug\XinYu.IniFileService.dll
+F:\06项目框架\XinYu.IniFileSolution\IniFile\bin\Debug\XinYu.IniFileService.pdb
+F:\06项目框架\XinYu.IniFileSolution\IniFile\obj\Debug\XinYu.IniFileService.dll
+F:\06项目框架\XinYu.IniFileSolution\IniFile\obj\Debug\XinYu.IniFileService.pdb

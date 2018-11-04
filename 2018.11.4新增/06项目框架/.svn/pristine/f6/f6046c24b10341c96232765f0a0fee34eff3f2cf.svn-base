@@ -1,0 +1,9 @@
+﻿namespace XinYu.Framework.Staff
+{
+    public enum StaffEnum
+    {
+        Police = 1,
+        Cafeteria = 2,
+        Other = 0
+    }
+}

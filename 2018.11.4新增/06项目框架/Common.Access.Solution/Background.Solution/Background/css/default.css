@@ -1,0 +1,434 @@
+﻿
+
+* {
+    font-family: Verdana, Tahoma, 宋体;
+    font-size: 10pt;
+    letter-spacing: 1px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+/*background-image: url(../img/framework/bg00.gif);color: #000000;*/
+body {
+    background-image: url(../img/framework/bg.gif);
+    font-family: Verdana,Tahoma,宋体;
+    margin: 0;
+    padding: 0;
+    SCROLLBAR-FACE-COLOR: #C6D5F4;
+    SCROLLBAR-HIGHLIGHT-COLOR: #C6D5F4;
+    SCROLLBAR-SHADOW-COLOR: #ffffff;
+    SCROLLBAR-ARROW-COLOR: #ffffff;
+    scrollbar-3d-light-color: #ffffff;
+    SCROLLBAR-BASE-COLOR: #ffffff;
+    scrollbar-dark-shadow-color: #ffffff;
+}
+
+
+.button {
+    font-family: Verdana,Tahoma,宋体;
+    font-size: 11pt;
+    border: 1px #000000 solid;
+    background: url( ../img/edit/bbk.gif );
+    background-color: White;
+    border-color: Gray;
+    border-width: 1px;
+    height: 20px;
+    padding: 0 10px;
+}
+
+.fontred {
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.fontblack {
+    color: #0089B4;
+    font-size: 12px;
+    font-weight: bold;
+    text-justify: inter-ideograph;
+    text-align: justify;
+}
+
+.fontblue {
+    color: #6FA6B7;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.fontor {
+    color: #FE8402;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.floatleft {
+    float: left;
+}
+
+
+A:link, A:visited, A:hover {
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+A.b1:link, A.b1:visited, A.b1:hover {
+    font-size: 12px;
+    color: #003399;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+A.c1:link, A.c1:visited, A.c1:hover {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* Login.aspx ************************************************************background-attachment: fixed;****/
+
+.loginbg01 {
+    background-image: url(../img/login/bg01.gif);
+    background-repeat: repeat-x;
+    background-position: right top;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.loginbg02 {
+    background-image: url(../img/login/bg02.gif);
+    background-repeat: no-repeat;
+    width: 644px;
+    height: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divLoginHeader {
+    background-image: url(../img/login/login_bg_header.gif);
+    background-repeat: no-repeat;
+    width: 644px;
+    height: 224px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divLoginFooter {
+    background-image: url(../img/login/login_bg_footer.gif);
+    background-repeat: no-repeat;
+    width: 644px;
+    height: 153px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.username {
+    background-image: url(../img/login/username.gif);
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    border: 1px solid #CCCCCC;
+    padding-left: 20px;
+    height: 16px;
+    font-size: 14px;
+    font-family: Verdana;
+    width: 108px;
+    color: #666666;
+}
+
+.password {
+    background-image: url(../img/login/password.gif);
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    border: 1px solid #CCCCCC;
+    padding-left: 20px;
+    height: 16px;
+    font-size: 12px;
+    width: 108px;
+}
+
+
+
+/* Framework.aspx **************************************************text-align: left;**************/
+#divBody {
+    width: 100%;
+    border: 0;
+    overflow: auto;
+    margin-top: 5px;
+}
+
+#divBanner {
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-image: url(../img/framework/banner_bg.gif);
+    background-repeat: repeat-x;
+}
+
+#divBannerLogo {
+    width: 100%;
+    text-align: left;
+    height: 50px;
+    float: left;
+    background-image: url(../img/framework/banner_logo.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+#divBannerStatus {
+    width: 100%;
+    text-align: right;
+    float: right;
+    background-image: url(../img/framework/banner_bg2.gif);
+    background-repeat: repeat-x;
+}
+
+    #divBannerStatus .left {
+        background-image: url(../img/framework/banner_user_left.gif);
+        background-repeat: no-repeat;
+        width: 66px;
+        height: 30px;
+    }
+
+    #divBannerStatus .center {
+        background-image: url(../img/framework/banner_user_bg.gif);
+        background-repeat: repeat-x;
+    }
+
+    #divBannerStatus .right {
+        background-image: url(../img/framework/banner_user_right.gif);
+        background-repeat: no-repeat;
+        width: 19px;
+        height: 30px;
+    }
+
+#divMenu {
+    float: left;
+    width: 200px;
+    vertical-align: top;
+    background-image: url(../img/framework/menu_bg.gif);
+    text-align: left;
+}
+
+#divFooter {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-image: url(../img/framework/fooer_bg.gif);
+    background-repeat: repeat-x;
+    float: left;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+}
+
+
+#divSpace {
+    float: left;
+    background-image: url(../img/admin/spacer.gif);
+    width: 80%;
+    height: 5px;
+}
+
+
+/* XXXXAdd.aspx ****************************************************************/
+
+table.title {
+    width: 98%;
+    height: 28px;
+    background-image: url(../img/edit/title2.gif);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    table.title td.left {
+        height: 28px;
+        padding: 0px 0px 0px 20px;
+        text-align: left;
+    }
+
+    table.title td.center {
+        height: 28px;
+        padding: 0px 0px 0px 0px;
+        text-align: left;
+    }
+
+    table.title td.right {
+        height: 28px;
+        padding: 0px 30px 0px 0px;
+        text-align: right;
+    }
+
+table.content {
+    background-image: url(../img/framework/bg.gif);
+    border: 0px;
+    width: 98%;
+}
+
+td.title1 {
+    vertical-align: top;
+    background-color: #DEDEDE;
+    width: 160px;
+    height: 30px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+
+td.input1 {
+    vertical-align: top;
+    background-color: #DEDEDE;
+    height: 25px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+td.desc1 {
+    vertical-align: top;
+    background-color: #DEDEDE;
+    height: 25px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+td.title2 {
+    vertical-align: top;
+    background-color: #fdf5e6;
+    width: 160px;
+    height: 30px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+
+td.input2 {
+    vertical-align: top;
+    background-color: #fdf5e6;
+    height: 25px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+td.desc2 {
+    vertical-align: top;
+    background-color: #fdf5e6;
+    height: 25px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+span.tip {
+    color: #cccccc;
+}
+
+span.alert {
+    color: #ff0033;
+    font-weight: bold;
+}
+
+
+table.list {
+    border: 2px ridge White;
+    background-color: White;
+    width: 98%;
+}
+
+    table.list tr.item {
+        background-color: #DEDFDE;
+        color: Black;
+        height: 24px;
+    }
+
+    table.list tr.header {
+        background-color: #4A3C8C;
+        color: #E7E7FF;
+        font-weight: bold;
+        height: 30px;
+    }
+
+
+
+.moreButton {
+    padding: 5px;
+    line-height: 22px;
+}
+
+
+
+/* Ajax Toolkit ****************************************************************/
+
+
+.MyCalendar .ajax__calendar_container {
+    border: 1px solid #646464;
+    background-color: lemonchiffon;
+    color: red;
+}
+
+.MyCalendar .ajax__calendar_other .ajax__calendar_day,
+.MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: black;
+}
+
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: black;
+}
+
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: black;
+    font-weight: bold;
+}
+
+
+/**/
+.dynamicPopulate_Normal {
+    border: silver 1px solid;
+    padding: 1px;
+    height: 15px;
+    width: 200px;
+}
+
+.dynamicPopulate_Updating {
+    background-image: url(../img/loading.gif);
+    background-repeat: no-repeat;
+    border: silver 1px solid;
+    padding: 1px;
+    height: 15px;
+    width: 200px;
+}
+
+
+
+.Key_Benefits {
+    width: 500px;
+    background: url(../../images/Site_icon/fit.gif) 3px 0 no-repeat;
+    border: #7f9db9 1px solid;
+    height: 18px;
+    padding-left: 28px;
+}
+
+.form_btn, .form_btn2, .form_btn3, .form_btn_submit, .form_btn_submit_170px {
+    border: 0;
+    color: #1274ba;
+    font-size: 12px;
+    height: 22px;
+    line-height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    background: url(../../images/Site_icon/pics_1.gif) 0 bottom no-repeat;
+}
+
+.form_btn {
+    width: 63px;
+}

@@ -1,0 +1,13 @@
+****************************************
+Timestamp: 2018-05-14 13:27:53.5216272
+            Title:测试调用_WriteText
+            Message: 您需要写入的内容
+            Severity: Information
+----------------------------------------
+****************************************
+Timestamp: 2018-05-14 13:27:53.9206500
+            Title:测试调用_WriteException
+            Message: System.DivideByZeroException: 尝试除以零。
+   在 XinYu.InvokeExample.Program.Main(String[] args) 位置 f:\06项目框架\EntLibLogSolution\XinYu.InvokeExample\Program.cs:行号 15
+            Severity: Error
+----------------------------------------

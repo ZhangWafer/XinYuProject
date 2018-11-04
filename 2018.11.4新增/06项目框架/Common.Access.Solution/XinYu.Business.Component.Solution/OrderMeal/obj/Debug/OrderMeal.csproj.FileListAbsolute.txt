@@ -1,0 +1,6 @@
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\OrderMeal\bin\Debug\XinYu.Framework.OrderMeal.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\OrderMeal\bin\Debug\XinYu.Framework.OrderMeal.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\OrderMeal\obj\Debug\XinYu.Framework.OrderMeal.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Business.Component.Solution\OrderMeal\obj\Debug\XinYu.Framework.OrderMeal.pdb
+F:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.OrderMeal.dll
+F:\06项目框架\Common.Access.Solution\Business.Component\XinYu.Framework.OrderMeal.pdb

@@ -1,0 +1,60 @@
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\bin\Debug\Spotmau.Framework.Library.Factory.dll
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\bin\Debug\Spotmau.Framework.Library.Factory.pdb
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\bin\Debug\Spotmau.Framework.Library.Implement.dll
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\bin\Debug\Spotmau.Framework.Library.Interface.dll
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\bin\Debug\Spotmau.Framework.Library.Implement.pdb
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\bin\Debug\Spotmau.Framework.Library.Interface.pdb
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\bin\Debug\Microsoft.Practices.ObjectBuilder.pdb
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\obj\Debug\ResolveAssemblyReference.cache
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\obj\Debug\Spotmau.Framework.Library.Factory.Properties.Resources.resources
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\obj\Debug\Spotmau.Framework.Library.Factory.dll
+E:\DZWL\DZWL Web V1.0\01 Common Library\Library.Factory\obj\Debug\Spotmau.Framework.Library.Factory.pdb
+D:\MySite\01 Common Library\Library.Factory\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MySite\01 Common Library\Library.Factory\bin\Debug\Microsoft.Practices.ObjectBuilder.pdb
+D:\MySite\01 Common Library\Library.Factory\obj\Debug\Library.Factory.csprojResolveAssemblyReference.cache
+D:\MySite\01 Common Library\Library.Factory\obj\Debug\Library.Factory.csproj.GenerateResource.Cache
+D:\MySite\01 Common Library\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.Properties.Resources.resources
+D:\MySite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Factory.dll
+D:\MySite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Factory.pdb
+D:\MySite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Implement.dll
+D:\MySite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Interface.dll
+D:\MySite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Implement.pdb
+D:\MySite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Interface.pdb
+D:\MySite\01 Common Library\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.dll
+D:\MySite\01 Common Library\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.pdb
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Factory.dll
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Factory.pdb
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Implement.dll
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Interface.dll
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Implement.pdb
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\bin\Debug\XinYu.Framework.Library.Interface.pdb
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\bin\Debug\Microsoft.Practices.ObjectBuilder.pdb
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\obj\Debug\Library.Factory.csprojResolveAssemblyReference.cache
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.Properties.Resources.resources
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\obj\Debug\Library.Factory.csproj.GenerateResource.Cache
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.dll
+F:\06项目框架\XinYuWebSite\01 Common Library\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.pdb
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\bin\Debug\XinYu.Framework.Library.Factory.dll
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\bin\Debug\XinYu.Framework.Library.Factory.pdb
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\bin\Debug\XinYu.Framework.Library.Implement.dll
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\bin\Debug\XinYu.Framework.Library.Interface.dll
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\bin\Debug\XinYu.Framework.Library.Implement.pdb
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\bin\Debug\XinYu.Framework.Library.Interface.pdb
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\bin\Debug\Microsoft.Practices.ObjectBuilder.pdb
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\obj\Debug\Library.Factory.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.Properties.Resources.resources
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\obj\Debug\Library.Factory.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.dll
+C:\Users\Administrator\Desktop\XinYu.Common.Library.Solution\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.pdb
+F:\06项目框架\Common.Access.Solution\Common.Library\XinYu.Framework.Library.Factory.dll
+F:\06项目框架\Common.Access.Solution\Common.Library\XinYu.Framework.Library.Factory.pdb
+F:\06项目框架\Common.Access.Solution\XinYu.Common.Library.Solution\Library.Factory\obj\Debug\Library.Factory.csprojResolveAssemblyReference.cache
+F:\06项目框架\Common.Access.Solution\XinYu.Common.Library.Solution\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.Properties.Resources.resources
+F:\06项目框架\Common.Access.Solution\XinYu.Common.Library.Solution\Library.Factory\obj\Debug\Library.Factory.csproj.GenerateResource.Cache
+F:\06项目框架\Common.Access.Solution\XinYu.Common.Library.Solution\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.dll
+F:\06项目框架\Common.Access.Solution\XinYu.Common.Library.Solution\Library.Factory\obj\Debug\XinYu.Framework.Library.Factory.pdb

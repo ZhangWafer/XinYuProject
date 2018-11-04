@@ -1,0 +1,16 @@
+﻿using System.ComponentModel;
+
+namespace XinYu.Framework.Cookbook
+{
+    public enum CookbookEnum
+    {
+        [Description("早 餐")]
+        Breakfast = 1,
+
+        [Description("中 餐")]
+        Lunch = 2,
+
+        [Description("饭 餐")]
+        Supper = 3
+    }
+}

@@ -1,0 +1,140 @@
+﻿using System;
+using System.Linq;
+using XinYu.Framework.Membership.Model;
+using XinYu.Framework.Organization.BLL;
+using XinYu.Framework.Organization.Model;
+
+public partial class Background_Organization_OrganizationAdd : System.Web.UI.Page
+{
+    private OrganizationBLL _bll = new OrganizationBLL();
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!Page.IsPostBack)
+        {
+            if (!string.IsNullOrEmpty(Request["id"]))
+            {
+                var id = int.Parse(Request["id"]);
+                DisplayOrg(id);
+            }
+            else
+            {
+                lblCreatedBy.Text = PageUtility.User.Alias;
+                lblCreatedDate.Text = DateTime.Now.ToString();
+                lblLastUpdBy.Text = PageUtility.User.Alias;
+                lblLastUpdDate.Text = DateTime.Now.ToString();
+            }
+        }
+    }
+
+    void DisplayOrg(int id)
+    {
+        var list = _bll.GetOrganizationList(string.Empty, "order by DisplayOrder");
+        if (list == null) return;
+
+        var orgInfo = list.FirstOrDefault(i => i.Id == id);
+        if (orgInfo != null)
+        {
+            txtName.Text = orgInfo.Name;
+            txtDesc.Text = orgInfo.Description;
+            txtOrder.Text = orgInfo.DisplayOrder.ToString();
+
+            lblCreatedBy.Text = orgInfo.CreatedByName;
+            lblCreatedDate.Text = orgInfo.CreatedDate.ToString();
+            lblLastUpdBy.Text = orgInfo.LastUpdByName;
+            lblLastUpdDate.Text = orgInfo.LastUpdDate.ToString();
+        }
+    }
+
+    private void ClearOrg(UserInfo loginedUser)
+    {
+        txtName.Text = string.Empty;
+        txtDesc.Text = string.Empty;
+        txtOrder.Text = "100";
+
+        lblLastUpdBy.Text = loginedUser.Alias;
+        lblLastUpdDate.Text = DateTime.Now.ToString();
+    }
+
+    private OrganizationInfo GetOrg(UserInfo loginedUser)
+    {
+        // 检查用户的输入情况
+        if (string.IsNullOrEmpty(txtName.Text.Trim()))
+        {
+            lblError.Text = "请输入机构名称！";
+            return null;
+        }
+
+        if (string.IsNullOrEmpty(txtOrder.Text.Trim()) || !ValidationUtility.IsNumric(txtOrder.Text.Trim()))
+        {
+            lblError.Text = "请输入正确格式的排序数值！";
+            return null;
+        }
+
+        var ret = new OrganizationInfo
+        {
+            Id = 0,
+            CreatedByID = loginedUser.ID,
+            CreatedByName = loginedUser.Alias,
+            CreatedDate = DateTime.Now
+        };
+
+        // 如果是修改，则获取要修改的对象
+        if (!string.IsNullOrEmpty(Request["id"]))
+        {
+            var list = _bll.GetOrganizationList(string.Empty, "order by DisplayOrder Desc");
+            if (list == null)
+                return null;
+
+            var orgInfo = list.FirstOrDefault(i => i.Id == int.Parse(Request["id"]));
+            ret = orgInfo;
+        }
+
+        if (ret == null) return null;
+
+        ret.Name = txtName.Text.Trim();
+        ret.Description = txtDesc.Text.Trim();
+
+        ret.DisplayOrder = int.Parse(txtOrder.Text.Trim());
+
+        ret.LastUpdByID = loginedUser.ID;
+        ret.LastUpdByName = loginedUser.Alias;
+        ret.LastUpdDate = DateTime.Now;
+
+        return ret;
+    }
+
+    protected void btnAdd_Click(object sender, EventArgs e)
+    {
+        var org = GetOrg(PageUtility.User);
+        if (org == null) return;
+
+        try
+        {
+            if (string.IsNullOrEmpty(Request["id"]))
+            {
+                _bll.AddOrganization(org);
+            }
+            else
+            {
+                _bll.ModifyOrganization(org);
+            }
+        }
+        catch (Exception ex)
+        {
+            lblError.Text = ex.Message;
+            return;
+        }
+
+        Response.Redirect("OrganizationManager.aspx");
+    }
+
+    protected void btnReset_Click(object sender, EventArgs e)
+    {
+        this.ClearOrg(PageUtility.User);
+    }
+
+    protected void lnkAddRole_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("OrganizationManager.aspx");
+    }
+}

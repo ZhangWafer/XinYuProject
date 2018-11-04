@@ -1,0 +1,19 @@
+﻿using System.ComponentModel;
+
+namespace XinYu.Framework.Staff
+{
+    /// <summary>
+    /// 人员类型枚举
+    /// </summary>
+    public enum StaffEnum
+    {
+        [Description("警员")]
+        Police = 1,
+
+        [Description("食管人员")]
+        Cafeteria = 2,
+
+        [Description("其他")]
+        Other = 0
+    }
+}
